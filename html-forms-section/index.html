@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html forms Knowlegde</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Html forms</h2>
+    <!--01 forms attributes -->
+    <form action="register.php" method="get">
+      <!-- 02 first input (text type) -->
+      <div>
+        <label> Simple text input:</label>
+        <input type="text" />
+      </div>
+      <!-- 03 name attribute -->
+      <div>
+        <!-- 04 for attribute -->
+        <label for="using-name-att">Name Attribute:</label>
+        <input type="text" name="using-name-att" />
+      </div>
+      <!--05 select element -->
+      <div>
+        <label for="select-element">Select Element:</label>
+        <select name="select-element">
+          <!--06 value attribute -->
+          <option value="i-got-it">I got it</option>
+          <option value="need-to-study">I need to Study</option>
+          <!-- 07 selected attribute -->
+          <option value="selected-option" selected>Selected Option</option>
+        </select>
+      </div>
+      <!-- 08 multiple attribute -->
+      <div>
+        <select name="multiple-atribute" multiple>
+          <option value="html">Html</option>
+          <option value="css">Css</option>
+          <option value="javascript">JavaScript</option>
+        </select>
+      </div>
+      <!-- 09 text area element -->
+      <div>
+        <label for="textarea-element">Textarea:</label>
+        <textarea name="textarea-element" id=""></textarea>
+      </div>
+      <!-- 10 fieldset and legend -->
+      <div>
+        <fieldset>
+          <legend>Fieldset and Legend</legend>
+          <label for="datalist">Datalist:</label>
+          <!-- 11 list attribute -->
+          <input type="text" list="datalist-123" name="datalist" />
+          <!--12 datalist -->
+          <datalist id="datalist-123">
+            <option value="Html"></option>
+            <option value="Css"></option>
+            <option value="JavaScript"></option>
+          </datalist>
+        </fieldset>
+      </div>
+    </form>
+  </body>
+</html>
