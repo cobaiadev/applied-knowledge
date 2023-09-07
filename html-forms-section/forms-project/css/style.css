@@ -1,0 +1,181 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(248, 248, 248);
+  padding: 12px 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px auto;
+  width: 350px;
+  /* background-color: red; */
+}
+
+i {
+  margin-right: 10px;
+}
+
+.login {
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(221, 221, 221);
+  /* background-color: aqua; */
+}
+
+.login p {
+  font-size: 0.9rem;
+}
+
+.sig-container,
+.header-container {
+  width: 90%;
+  /* background-color: aqua; */
+}
+
+.cu123 {
+  background-color: aqua;
+  width: 100%;
+}
+
+.form-container {
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid rgb(221, 221, 221);
+  padding: 40px 25px;
+  margin-bottom: 8px;
+  /* background-color: red; */
+}
+.box-input {
+  width: 100%;
+}
+
+.terms-licenses {
+  margin-top: 10px;
+}
+
+.center-itens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(123, 120, 120);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p,
+.division-container h3,
+footer,
+input::placeholder {
+  font-size: 0.8rem;
+  color: rgb(102, 102, 102);
+  letter-spacing: -0.025rem;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(0, 149, 246);
+}
+
+p a,
+footer a {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.division-container {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: red; */
+  width: 100%;
+}
+
+.division-container div {
+  margin-top: -10px;
+  width: 30%;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.buttom {
+  height: 35px;
+  font-size: 0.9rem;
+  letter-spacing: +0.02rem;
+  text-align: center;
+  border-radius: 8px;
+  display: block;
+  background-color: rgb(0, 149, 246);
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 9px;
+  width: 100%;
+}
+
+.buttom a {
+  color: #fff;
+}
+
+.disabled {
+  background-color: rgba(0, 149, 246, 0.7);
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 5px;
+  padding: 8px;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 2px;
+}
+
+.logo-img {
+  margin-bottom: 20px;
+  display: block;
+  height: 55px;
+  width: 180px;
+  background-image: url("https://cdn.logo.com/hotlink-ok/logo-social.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.download-apps img {
+  width: 100px;
+}
+
+footer {
+  margin: 25px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  margin: 10px;
+}
