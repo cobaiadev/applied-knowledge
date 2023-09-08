@@ -1,44 +1,44 @@
-# Meus Projetos Práticos de Responsividade
+# My Practical Responsiveness Project
 
-Este repositório é um lugar onde vou compartilhar os projetos práticos de responsividade que desenvolvi ao longo dos meus cursos de desenvolvimento web. Aqui você encontrará exemplos de sites responsivos que criei para aprimorar minhas habilidades front-end.
+This repository is a place where I will share the practical responsiveness projects I have developed throughout my web development courses. Here, you will find examples of responsive websites I have created to enhance my front-end skills.
 
-## Sobre os Projetos
+## About the Project
 
-Os projetos neste repositório abrangem uma variedade de tópicos relacionados à responsividade, incluindo:
+The projects in this repository cover a variety of topics related to responsiveness, including:
 
-- Media queries para layouts responsivos.
-- Design responsivo para dispositivos móveis e desktop.
-- Práticas recomendadas de HTML e CSS.
-- Adaptabilidade de imagens e elementos de mídia.
-- E muito mais.
+- Media queries for responsive layouts.
+- Responsive design for mobile and desktop devices.
+- HTML and CSS best practices.
+- Image and media element adaptability.
+- And much more.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - HTML
 - CSS
-- JavaScript (quando aplicável)
+- JavaScript (when applicable)
 
-## Temas
+## Themes
 
-Os temas dos projetos incluem, mas não se limitam a:
+The project themes include but are not limited to:
 
-- Site de portfólio pessoal.
-- Página de destino de produto.
-- Blog responsivo.
-- Aplicativos da web responsivos.
+- Personal portfolio website.
+- Product landing page.
+- Responsive blog.
+- Responsive web applications.
 
-## Em Desenvolvimento
+## Work in Progress
 
-Por favor, note que alguns dos temas mais avançados, como flexbox e grid, ainda não foram implementados nos projetos. Estou constantemente atualizando este repositório à medida que aprendo novas técnicas e tecnologias.
+Please note that some of the more advanced topics, such as flexbox and grid, have not been implemented in the projects yet. I am continually updating this repository as I learn new techniques and technologies.
 
-## Como Contribuir
+## How to Contribute
 
-Sinta-se à vontade para explorar os projetos e usá-los como referência para seus próprios estudos. Se você encontrar erros ou tiver sugestões para melhorias, fique à vontade para abrir problemas ou enviar pull requests. Sua contribuição é muito bem-vinda!
+Feel free to explore the projects and use them as a reference for your own studies. If you find any errors or have suggestions for improvements, please open issues or submit pull requests. Your contribution is very much welcome!
 
-## Licença
+## License
 
-Este projeto está sob a licença [MIT](LICENSE).
+This project is under the [MIT License](LICENSE).
 
 ---
 
-Aproveite a exploração dos projetos e feliz aprendizado!
+Enjoy exploring the projects and happy learning!
