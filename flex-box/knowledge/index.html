@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Flexbox</title>
+  </head>
+  <body>
+    <!-- 1. flex -->
+    <div class="flex">
+      <p>my</p>
+      <p>first</p>
+      <p>flex</p>
+      <p>element</p>
+    </div>
+    <!-- 2. column -->
+    <div class="flex-column">
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+    </div>
+    <!-- 3. wrap -->
+    <div class="wrap">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+    <!-- 4. justify-content -->
+    <section>
+      <h2>justify-content</h2>
+      <div class="values">
+        <h3>start</h3>
+        <div class="container-flex start">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+        </div>
+      </div>
+      <div class="values">
+        <h3>end</h3>
+        <div class="container-flex end">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+        </div>
+      </div>
+      <div class="values">
+        <h3>center</h3>
+        <div class="container-flex center">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+        </div>
+      </div>
+      <div class="values">
+        <h3>space-around</h3>
+        <div class="container-flex space-around">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+        </div>
+      </div>
+      <div class="values">
+        <h3>space-between</h3>
+        <div class="container-flex space-between">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+        </div>
+      </div>
+    </section>
+    <!-- 5. align items -->
+    <section>
+      <h2>align-items</h2>
+      <div class="values">
+        <h3>ai-start</h3>
+        <div class="container-flex ai-start">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+        </div>
+      </div>
+      <div class="values">
+        <h3>ai-end</h3>
+        <div class="container-flex ai-end">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+        </div>
+      </div>
+      <div class="values">
+        <h3>ai-center</h3>
+        <div class="container-flex ai-center">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+        </div>
+      </div>
+      <div class="values">
+        <h3>stretch</h3>
+        <div class="container-flex stretch">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+        </div>
+      </div>
+    </section>
+    <!-- 6. gap -->
+    <section>
+      <h3>gap</h3>
+      <div class="container-flex gap">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+    </section>
+    <!-- 7 order -->
+    <h3>order</h3>
+    <div class="container-flex order">
+      <div class="box" id="three">3</div>
+      <div class="box" id="one">1</div>
+      <div class="box" id="two">2</div>
+    </div>
+    <!-- 8 grow -->
+    <h3>grow</h3>
+    <div class="container-flex grow">
+      <div class="box"></div>
+      <div class="box big"></div>
+      <div class="box"></div>
+    </div>
+    <!-- 9. basis -->
+    <h3>basis</h3>
+    <div class="container-flex basis">
+      <div class="box"></div>
+      <div class="box big"></div>
+      <div class="box"></div>
+    </div>
+    <!-- 10. shrink -->
+    <h3>shrink</h3>
+    <div class="container-flex shrink">
+      <div class="box"></div>
+      <div class="box small"></div>
+      <div class="box"></div>
+    </div>
+    <!-- 11. shorthand -->
+    <h3>shorthand</h3>
+    <div class="container-flex shorthand">
+      <div class="box"></div>
+      <div class="box different"></div>
+      <div class="box"></div>
+    </div>
+    <!-- 12 align-self -->
+    <h3>align-self</h3>
+    <div class="container-flex align-self">
+      <div class="box"></div>
+      <div class="box different"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
